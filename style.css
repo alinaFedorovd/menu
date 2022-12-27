@@ -154,3 +154,29 @@ body {
 .header-buttom:hover{
     background-color: #ff0000;
 }
+.cards-holder{
+    display: flex;/*здесь создали этот класс в нем карточки и теперь только они в ряд стоят и процент их  процент заменили на 349gbr*/
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    width: 349px;
+    margin-right: 31px;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+
+.card-disc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     
+}
