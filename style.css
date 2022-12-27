@@ -1,41 +1,156 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     font-family: 'Josefin Slab', serif;
     font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.container{
+
+.container {
     margin: 0px 166px;
 
 }
-.header{
+
+.header {
     background-image: url("bg.png");
     height: 100vh;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
-.header-line{
+
+.header-line {
     padding-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
-.nav-item{
+
+.nav-item {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
     margin-right: 25px;
+    transition: 500ms linear;
 
 }
 
-.cart{
+.nav-item:hover {
+    color: rgb(179, 26, 26);
+}
+
+.cart {
     position: relative;
-    border-right: 1px solid #FFFFFF ;
+    border-right: 1px solid #FFFFFF;
     height: 51px;
     padding-right: 10px;
 }
-.cart-img{
+
+.cart-img {
     position: absolute;
     top: 18px;
     right: 8px;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.3s linear;
+}
+
+.num:hover {
+    color: #ff0000;
+}
+
+.phone-text {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.buttom {
+    color: #fff;
+    text-decoration: none;
+    background-color: #FF7400;
+    text-transform: uppercase;
+    padding: 14px 18px;
+    font-weight: 700;
+
+}
+
+.buttom:hover {
+    background-color: #6b3d04;
+}
+
+.header-title {
+    position: absolute;
+    /*очень важно для цетрирования изучи это дитя*/
+    left: 0;
+    /*это для того что бы по левому краю было*/
+    color: #FF7400;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 204px;
+    margin-bottom: 12px;
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-suptitle {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-suptitle::after {
+    position: absolute;
+    /*делаем полоску*/
+    content: "";
+    height: 2px;
+    width: 65px;
+    background-color: #fff;
+    top: 128px;
+    left: 54px;
+}
+
+.header-suptitle::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 65px;
+    background-color: #fff;
+    top: 128px;
+    left: 305px;
+}
+
+.header-buttom {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 27px;
+    transition: 0.5s;
+}
+.header-buttom:hover{
+    background-color: #ff0000;
 }
