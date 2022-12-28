@@ -151,32 +151,115 @@ body {
     padding: 14px 27px;
     transition: 0.5s;
 }
-.header-buttom:hover{
+
+.header-buttom:hover {
     background-color: #ff0000;
 }
-.cards-holder{
-    display: flex;/*здесь создали этот класс в нем карточки и теперь только они в ряд стоят и процент их  процент заменили на 349gbr*/
+
+.cards-holder {
+    display: flex;
+    /*здесь создали этот класс в нем карточки и теперь только они в ряд стоят и процент их  процент заменили на 349gbr*/
     justify-content: center;
 }
 
-.card{
+.cards {
+    margin-top: -107px;
+}
+
+.card {
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
     width: 349px;
+    height: 328px;
     margin-right: 31px;
-}
-.card-image{
-    display: flex;
-    justify-content: center;
+    background-color: #fff;
+    padding: 0px 10px;
 }
 
-.card-title{
+.card-image {
     display: flex;
     justify-content: center;
+    padding: 35px 20px;
 }
 
-.card-disc{
+.card-title {
     display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.card-title span {
+    color: #984e11;
+}
+
+.card-disc {
     justify-content: center;
     text-align: center;
-     
+
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+}
+
+.history {
+    margin-top: 166px;
+}
+
+
+.history-title {
+    width: 444px;
+    text-align: center;
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    margin-bottom: 21px;
+}
+
+.history-title span {
+    color: #984e11
+}
+
+.history-desk {
+    width: 444px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #656363;
+    font-size: 16px;
+    text-align: center;
+}
+
+.history-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.number-item span {
+    display: block;
+    /* сделали что бы надписи были под цифрами */
+    font-family: 'Open Sans';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+
 }
