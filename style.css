@@ -263,3 +263,36 @@ body {
     color: #000000;
 
 }
+
+.history-holder{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.history-img{
+    position:relative;
+    /* это родитель теперь */
+}
+
+.images-1{
+    position: absolute;
+    z-index: 0;
+    top: 54px;
+    left: 580px;
+}
+
+
+.images-2{
+    position: absolute;
+    z-index: 999;
+    top: -3px;
+    left: 380px;
+}
+  
+
+.images-3{
+    position: absolute;
+    z-index: 999;
+    top: 60px;
+    left: 145px;
+    
+}
