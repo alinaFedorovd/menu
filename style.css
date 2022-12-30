@@ -264,16 +264,17 @@ body {
 
 }
 
-.history-holder{
+.history-holder {
     display: flex;
     /* justify-content: space-between; */
 }
-.history-img{
-    position:relative;
+
+.history-img {
+    position: relative;
     /* это родитель теперь */
 }
 
-.images-1{
+.images-1 {
     position: absolute;
     z-index: 0;
     top: 54px;
@@ -281,18 +282,101 @@ body {
 }
 
 
-.images-2{
+.images-2 {
     position: absolute;
     z-index: 999;
     top: -3px;
     left: 380px;
 }
-  
 
-.images-3{
+
+.images-3 {
     position: absolute;
     z-index: 999;
     top: 60px;
     left: 145px;
-    
+
+}
+
+/* ниже- моя верстка */
+
+.black-block {
+    position: relative;
+    margin-top: 182px;
+    margin-bottom: 132px;
+    background-image: linear-gradient(to right, rgba(22, 22, 22, 0.9), rgba(0, 0, 0, 0.9)), url("blackblock.png");
+    /* наложение фона подсмотрела в сети */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 357px;
+}
+
+
+.black-block-btm {
+    position: absolute;
+    top: 187px;
+    left: 1269px;
+}
+
+.black-block-top {
+    padding: 80px 0px 0px 165px;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+}
+
+.black-block-down {
+    margin-top: 20px;
+    margin-left: 165px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.dishes-title {
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 54px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 149px;
+}
+
+.dishes-title span {
+    color: #bb7a35;
+}
+
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+
+.lov {
+    display: flex;
+}
+
+.burger-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.burger {
+    margin-right: 10px;
+}
+
+.burgers-image {
+    margin-right: 120px;
+}
+
+.burger-text {
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+
 }
