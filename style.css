@@ -378,5 +378,86 @@ body {
     font-weight: 400;
     font-size: 26px;
     color: #000000;
+}
 
+.menu {
+    background-image: url("bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    /* отодвинуть белую полосу */
+}
+
+.menu-title {
+    padding-top: 98px;
+    padding-bottom: 138px;
+    text-align: center;
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 54px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-items{
+   display: flex;
+   justify-content: center;
+}
+
+.menu-item {
+    /* height: 510px; вместо этого пэддинг ботом */
+    margin-left: 30px;
+    background-color: #fff;
+    text-align: center;
+    width: 350px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.menu-text {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+
+.menu-subtext {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.menu-button {
+    margin-top: 20px;
+}
+
+.menu-button .buttom {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.prise-img {
+    position: absolute;
+    top: 133px;
+    left: 214px;
+}
+
+.menu-image {
+    position: relative;
+}
+
+.prise-420 {
+    position: absolute;
+    top: 167px;
+    left: 245px;
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
 }
