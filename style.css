@@ -597,3 +597,9 @@ body {
 .cooks-img{
     padding-left: 20px;
 }
+.footer{
+background-image: url("footer.png");
+background-repeat: no-repeat;   
+background-size: cover; 
+height: 100vh;
+}
