@@ -399,9 +399,9 @@ body {
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
-.menu-items{
-   display: flex;
-   justify-content: center;
+.menu-items {
+    display: flex;
+    justify-content: center;
 }
 
 .menu-item {
@@ -460,4 +460,103 @@ body {
     font-weight: 400;
     font-size: 30px;
     color: #FFFFFF;
+}
+
+.review-blok {
+    background-color: #E6E5E5;
+    padding-top: 104px;
+}
+
+.review-text {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.review-photo {
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 17px;
+}
+
+.re-text {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.re-subtext {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* вот я выровняла маленькие плпжки текта по центру с помощью флекса */
+}
+
+.slider {
+    padding-top: 26px;
+    padding-bottom: 108px;
+}
+
+.slider-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-box-item-noactiv {
+    width: 5px;
+    height: 5px;
+    margin-left: 3px;
+}
+
+.slider-box-item {
+    padding-left: 2px;
+    width: 7px;
+    height: 7px;
+}
+
+.gal-box-holder{
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.galery-title {
+    padding-top: 104px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+.galery-title span{
+    color: #984e11;
+}
+
+.gal-box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.g-box-inside{
+    padding-bottom: 20px;
+}
+.img-rith{
+    margin-left: 20px;
 }
