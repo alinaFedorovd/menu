@@ -528,7 +528,7 @@ body {
     height: 7px;
 }
 
-.gal-box-holder{
+.gal-box-holder {
     padding-bottom: 100px;
     display: flex;
     justify-content: center;
@@ -544,19 +544,56 @@ body {
     line-height: 62px;
     color: #000000;
 }
-.galery-title span{
+
+.galery-title span {
     color: #984e11;
 }
 
-.gal-box{
+.gal-box {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
 }
 
-.g-box-inside{
+.gal-box2 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 20px;
+}
+
+.g-box-inside {
     padding-bottom: 20px;
 }
-.img-rith{
+
+.img-rith {
     margin-left: 20px;
+}
+
+.g-box-inside-down {
+    padding-bottom: 20px;
+}
+/* этим я вырвняла вторую колонку в смычли отсупов а не положения */
+
+
+.cooks-imags {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.cooks-title{
+    padding-top: 104px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+.cooks-title span{
+    color: #984e11;
+}
+.cooks-img{
+    padding-left: 20px;
 }
